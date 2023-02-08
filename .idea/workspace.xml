@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51a88c8c-e94d-4e72-93c9-c0b809a303a1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/authentication-microservice">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/example-microservice">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/order-microservice">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Anni's pizzas" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Anni's pizzas" type="f1a62948:ProjectNode" />
+                <item name="order-microservice" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Anni's pizzas" type="f1a62948:ProjectNode" />
+                <item name="order-microservice" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Anni's pizzas" type="f1a62948:ProjectNode" />
+                <item name="order-microservice" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.3.5.RELEASE/f38d65bb637f78b8cdd616fd07fc8781968a979e/spring-security-core-5.3.5.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IOvLq4UdTTVKSo8cA6OCOV5DNc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bogdan/Desktop/TU Delft/University Work/Year 2/Software Engineering Methods/Project/SEM04a/product-microservice/src/main/java/nl/tudelft/sem/template/product/authentication&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;40c0a4fb9ccf22a17f44d872e57cb6b6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nl.tudelft.sem.template.order.domain.order" />
+      <recent name="nl.tudelft.sem.template.order.domain.coupon.validators" />
+      <recent name="nl.tudelft.sem.template.authentication.domain.user" />
+      <recent name="nl.tudelft.sem.template.authentication.authentication" />
+      <recent name="nl.tudelft.sem.template.authentication.models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\authentication" />
+      <recent name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\authentication" />
+      <recent name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\authentication" />
+      <recent name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\authentication" />
+      <recent name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="order-microservice/src/test/java/nl/tudelft/sem/template/order/domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SEM04a:order-microservice [pitest]">
+    <configuration name="OrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":order-microservice:test" />
+            <option value="--tests" />
+            <option value="&quot;nl.tudelft.sem.template.order.simpleClasses.OrderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SEM04a [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SEM04a [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SEM04a:order-microservice [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/order-microservice" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SEM04a:order-microservice [pitest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/order-microservice" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="pitest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SEM04a" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SEM04a" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/report" SOURCE_DIRS="$PROJECT_DIR$/authentication-microservice/src/test/java" TARGET_CLASSES="nl.*" TARGET_TESTS="" otherParams="--outputFormats XML,HTML" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Anni's_pizzas.order-microservice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nl.tudelft.sem.template.order.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Anni's_pizzas.product-microservice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nl.tudelft.sem.template.product.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Anni's_pizzas.menu-microservice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nl.tudelft.sem.template.menu.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Anni's_pizzas.example-microservice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nl.tudelft.sem.template.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Authentification-User Service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Anni's_pizzas.authentication-microservice.main" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nl.tudelft.sem.template.authentication.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.OrderTest" />
+      <item itemvalue="Gradle.SEM04a [bootJar]" />
+      <item itemvalue="Gradle.SEM04a:order-microservice [pitest]" />
+      <item itemvalue="Gradle.SEM04a [build]" />
+      <item itemvalue="Gradle.SEM04a:order-microservice [build]" />
+      <item itemvalue="PIT Runner.Unnamed" />
+      <item itemvalue="Spring Boot.Application (3)" />
+      <item itemvalue="Spring Boot.Authentification-User Service" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.Application (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SEM04a:order-microservice [pitest]" />
+        <item itemvalue="Gradle.SEM04a [build]" />
+        <item itemvalue="Gradle.OrderTest" />
+        <item itemvalue="Gradle.SEM04a [bootJar]" />
+        <item itemvalue="Gradle.SEM04a:order-microservice [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51a88c8c-e94d-4e72-93c9-c0b809a303a1" name="Changes" comment="" />
+      <created>1670065395941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670065395941</updated>
+      <workItem from="1670065398120" duration="2098000" />
+      <workItem from="1670082292216" duration="178000" />
+      <workItem from="1670083318684" duration="8016000" />
+      <workItem from="1670251827670" duration="5789000" />
+      <workItem from="1670258349674" duration="320000" />
+      <workItem from="1670258734806" duration="12770000" />
+      <workItem from="1670319847224" duration="9210000" />
+      <workItem from="1670413955935" duration="16707000" />
+      <workItem from="1670434685036" duration="1448000" />
+      <workItem from="1670494395500" duration="360000" />
+      <workItem from="1670496859737" duration="3647000" />
+      <workItem from="1670503002401" duration="471000" />
+      <workItem from="1670503754464" duration="9543000" />
+      <workItem from="1670513659231" duration="10991000" />
+      <workItem from="1670592616051" duration="600000" />
+      <workItem from="1670593691420" duration="10040000" />
+      <workItem from="1670682814145" duration="2020000" />
+      <workItem from="1670947541830" duration="42000" />
+      <workItem from="1671020343334" duration="2622000" />
+      <workItem from="1671027121097" duration="875000" />
+      <workItem from="1671029600750" duration="7129000" />
+      <workItem from="1671036941027" duration="1591000" />
+      <workItem from="1671040486048" duration="7208000" />
+      <workItem from="1671049122815" duration="694000" />
+      <workItem from="1671050088147" duration="791000" />
+      <workItem from="1671051233548" duration="1307000" />
+      <workItem from="1671054034926" duration="522000" />
+      <workItem from="1671188722954" duration="923000" />
+      <workItem from="1671279024680" duration="116000" />
+      <workItem from="1671291636652" duration="632000" />
+      <workItem from="1671388523147" duration="739000" />
+      <workItem from="1671389531019" duration="532000" />
+      <workItem from="1671442883078" duration="4236000" />
+      <workItem from="1671543155374" duration="7128000" />
+      <workItem from="1671574413556" duration="6958000" />
+      <workItem from="1671630128274" duration="5301000" />
+      <workItem from="1671705081619" duration="1177000" />
+      <workItem from="1671711538767" duration="2892000" />
+      <workItem from="1672055484419" duration="128000" />
+      <workItem from="1672498424026" duration="152000" />
+      <workItem from="1672498741207" duration="38000" />
+      <workItem from="1672498835148" duration="1000" />
+      <workItem from="1673512613603" duration="35000" />
+      <workItem from="1673512758405" duration="1679000" />
+      <workItem from="1673517145313" duration="4130000" />
+      <workItem from="1673531296781" duration="57000" />
+      <workItem from="1673549074912" duration="124000" />
+      <workItem from="1673549210047" duration="88000" />
+      <workItem from="1673633575181" duration="4929000" />
+      <workItem from="1673697621509" duration="1741000" />
+      <workItem from="1673699616703" duration="2213000" />
+      <workItem from="1673701845550" duration="3778000" />
+      <workItem from="1673705983765" duration="5411000" />
+      <workItem from="1673711410225" duration="596000" />
+      <workItem from="1673712018479" duration="198000" />
+      <workItem from="1673712228489" duration="879000" />
+      <workItem from="1673713118192" duration="911000" />
+      <workItem from="1673714039872" duration="3008000" />
+      <workItem from="1673717094474" duration="7010000" />
+      <workItem from="1673724401211" duration="13423000" />
+      <workItem from="1673779251339" duration="86000" />
+      <workItem from="1673779608516" duration="66000" />
+      <workItem from="1673779685579" duration="4186000" />
+      <workItem from="1673784082889" duration="406000" />
+      <workItem from="1673888253524" duration="596000" />
+      <workItem from="1674465761344" duration="14690000" />
+      <workItem from="1674811077146" duration="77000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/authentication-microservice/src/test/java/nl/tudelft/sem/template/authentication/authentication/JwtUserDetailsServiceTests.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/authentication-microservice/src/test/java/nl/tudelft/sem/template/authentication/integration/UsersTests.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/authentication-microservice/src/main/java/nl/tudelft/sem/template/authentication/domain/user/AppUser.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/authentication-microservice/src/main/java/nl/tudelft/sem/template/authentication/controllers/AuthenticationController.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-microservice/src/main/java/nl/tudelft/sem/template/order/controllers/OrderController.java</url>
+          <line>319</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/order-microservice/src/test/java/nl/tudelft/sem/template/order/domain/GetOrderTests.java</url>
+          <line>88</line>
+          <properties class="nl.tudelft.sem.template.order.domain.GetOrderTests" method="getOrdersUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

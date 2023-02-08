@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Margherita Pizza",
+    "price": 9.50,
+    "allergens": [3],
+    "toppings": [1],
+    "_class": "nl.tudelft.sem.template.menu.domain.product.Product"
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "price": 11.10,
+    "allergens": [3,4,9],
+    "toppings": [1, 2],
+    "_class": "nl.tudelft.sem.template.menu.domain.product.Product"
+  },
+  {
+    "name": "Mushroom Pizza",
+    "price": 10.70,
+    "allergens": [3,7],
+    "toppings": [1, 5],
+    "_class": "nl.tudelft.sem.template.menu.domain.product.Product"
+  }
+]

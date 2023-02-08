@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.order.domain.StoreTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:06:05" hostname="CODEKILLER" time="0.614">
+  <properties/>
+  <testcase name="testAddStore()" classname="nl.tudelft.sem.template.order.domain.StoreTests" time="0.614"/>
+  <system-out><![CDATA[2023-01-23 15:06:04.672  INFO 2556 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [nl.tudelft.sem.template.order.domain.StoreTests], using SpringBootContextLoader
+2023-01-23 15:06:04.672  INFO 2556 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [nl.tudelft.sem.template.order.domain.StoreTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-01-23 15:06:04.672  INFO 2556 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [nl.tudelft.sem.template.order.domain.StoreTests]: StoreTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-01-23 15:06:04.673  INFO 2556 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration nl.tudelft.sem.template.order.Application for test class nl.tudelft.sem.template.order.domain.StoreTests
+2023-01-23 15:06:04.674  INFO 2556 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-01-23 15:06:04.674  INFO 2556 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@d45fdf6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@728ccd69, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@65a669c3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@31c80546, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13c0f4c4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7339450, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@518d0d04, org.springframework.test.context.event.EventPublishingTestExecutionListener@209ed046, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@34ec7645, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2fe6e59c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@163a2849, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4070d628, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@17f9de3d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f2b035b]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-23 15:06:04.713  INFO 2556 --- [    Test worker] n.t.s.template.order.domain.StoreTests   : Starting StoreTests on CodeKiller with PID 2556 (started by Bogdan in C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice)
+2023-01-23 15:06:04.713  INFO 2556 --- [    Test worker] n.t.s.template.order.domain.StoreTests   : The following profiles are active: mockAuthenticationManager,mockTokenVerifier,test
+2023-01-23 15:06:04.818  INFO 2556 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:06:04.839  INFO 2556 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 4 JPA repository interfaces.
+2023-01-23 15:06:04.928  INFO 2556 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:06:04.934  INFO 2556 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-23 15:06:04.941  WARN 2556 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.template.order.domain.order.OrderData] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:06:04.942  WARN 2556 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [interface nl.tudelft.sem.template.order.domain.coupon.PricingStrategy] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:06:04.963  INFO 2556 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:06:04.963  INFO 2556 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:06:05.006  WARN 2556 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:06:05.134  INFO 2556 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-23 15:06:05.142  INFO 2556 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-23 15:06:05.239  INFO 2556 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2cc5df9c-a53c-4cab-a87d-c19c78f69af1
+
+2023-01-23 15:06:05.278  INFO 2556 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50f67119, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ef3c545, org.springframework.security.web.header.HeaderWriterFilter@44ec6a4b, org.springframework.security.web.authentication.logout.LogoutFilter@3a6dccb1, nl.tudelft.sem.template.order.authentication.JwtRequestFilter@1aa33c8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d44becd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4add3f1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ae95b23, org.springframework.security.web.session.SessionManagementFilter@81f00d8, org.springframework.security.web.access.ExceptionTranslationFilter@6ca3ecea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ca80a68]
+2023-01-23 15:06:05.299  INFO 2556 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-23 15:06:05.299  INFO 2556 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-23 15:06:05.304  INFO 2556 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2023-01-23 15:06:05.307  INFO 2556 --- [    Test worker] n.t.s.template.order.domain.StoreTests   : Started StoreTests in 0.632 seconds (JVM running for 28.398)
+2023-01-23 15:06:05.314  INFO 2556 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-23 15:06:05.314  INFO 2556 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-23 15:06:05.357  INFO 2556 --- [    Test worker] n.t.s.template.order.domain.StoreTests   : Starting StoreTests on CodeKiller with PID 2556 (started by Bogdan in C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice)
+2023-01-23 15:06:05.357  INFO 2556 --- [    Test worker] n.t.s.template.order.domain.StoreTests   : The following profiles are active: mockAuthenticationManager,mockTokenVerifier,test
+2023-01-23 15:06:05.467  INFO 2556 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:06:05.487  INFO 2556 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 4 JPA repository interfaces.
+2023-01-23 15:06:05.569  INFO 2556 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:06:05.574  INFO 2556 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-23 15:06:05.581  WARN 2556 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.template.order.domain.order.OrderData] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:06:05.582  WARN 2556 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [interface nl.tudelft.sem.template.order.domain.coupon.PricingStrategy] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:06:05.599  INFO 2556 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:06:05.599  INFO 2556 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:06:05.632  WARN 2556 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:06:05.757  INFO 2556 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-23 15:06:05.764  INFO 2556 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-23 15:06:05.858  INFO 2556 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 016edda4-b6f2-4069-853b-643bad559067
+
+2023-01-23 15:06:05.895  INFO 2556 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e0333b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@6247d611, org.springframework.security.web.header.HeaderWriterFilter@4125db4a, org.springframework.security.web.authentication.logout.LogoutFilter@1ca77862, nl.tudelft.sem.template.order.authentication.JwtRequestFilter@1fd5207b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34991ade, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b09788c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@304c182d, org.springframework.security.web.session.SessionManagementFilter@73fd1c75, org.springframework.security.web.access.ExceptionTranslationFilter@38ab04f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f8613bc]
+2023-01-23 15:06:05.917  INFO 2556 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-23 15:06:05.917  INFO 2556 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-23 15:06:05.920  INFO 2556 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-23 15:06:05.923  INFO 2556 --- [    Test worker] n.t.s.template.order.domain.StoreTests   : Started StoreTests in 0.608 seconds (JVM running for 29.015)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

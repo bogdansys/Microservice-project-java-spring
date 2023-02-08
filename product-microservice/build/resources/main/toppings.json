@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cheese",
+    "allergens": [],
+    "price": 0.75,
+    "_class": "nl.tudelft.sem.template.product.domain.topping.Topping"
+  },
+  {
+    "name": "Pepperoni",
+    "allergens": [],
+    "price": 1.5,
+    "_class": "nl.tudelft.sem.template.product.domain.topping.Topping"
+  },
+  {
+    "name": "Jalapenos",
+    "allergens": [],
+    "price": 1.0,
+    "_class": "nl.tudelft.sem.template.product.domain.topping.Topping"
+  },
+  {
+    "name": "Paprika",
+    "allergens": [],
+    "price": 1.0,
+    "_class": "nl.tudelft.sem.template.product.domain.topping.Topping"
+  },
+  {
+    "name": "Mushrooms",
+    "allergens": [],
+    "price": 1.25,
+    "_class": "nl.tudelft.sem.template.product.domain.topping.Topping"
+  },
+  {
+    "name": "Ham",
+    "allergens": [],
+    "price": 1.7,
+    "_class": "nl.tudelft.sem.template.product.domain.topping.Topping"
+  }
+]

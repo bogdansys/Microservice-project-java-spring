@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.product.authentication.AuthManagerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-21T15:09:16" hostname="CODEKILLER" time="0.06">
+  <properties/>
+  <testcase name="getEmailTest()" classname="nl.tudelft.sem.template.product.authentication.AuthManagerTests" time="0.06"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

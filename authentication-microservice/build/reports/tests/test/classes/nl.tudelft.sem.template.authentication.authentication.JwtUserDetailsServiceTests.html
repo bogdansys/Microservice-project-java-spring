@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - JwtUserDetailsServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>JwtUserDetailsServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/nl.tudelft.sem.template.authentication.authentication.html">nl.tudelft.sem.template.authentication.authentication</a> &gt; JwtUserDetailsServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.254s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">loadUserByUsername_withNonexistentUser_throwsException()</td>
+<td class="success">1.369s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">loadUserByUsername_withValidUser_returnsCorrectUser()</td>
+<td class="success">0.885s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:05:04.644 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:05:04.654 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:05:04.678 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [nl.tudelft.sem.template.authentication.authentication.JwtUserDetailsServiceTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:05:04.690 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [nl.tudelft.sem.template.authentication.authentication.JwtUserDetailsServiceTests], using SpringBootContextLoader
+15:05:04.693 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [nl.tudelft.sem.template.authentication.authentication.JwtUserDetailsServiceTests]: class path resource [nl/tudelft/sem/template/authentication/authentication/JwtUserDetailsServiceTests-context.xml] does not exist
+15:05:04.694 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [nl.tudelft.sem.template.authentication.authentication.JwtUserDetailsServiceTests]: class path resource [nl/tudelft/sem/template/authentication/authentication/JwtUserDetailsServiceTestsContext.groovy] does not exist
+15:05:04.694 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [nl.tudelft.sem.template.authentication.authentication.JwtUserDetailsServiceTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:05:04.695 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [nl.tudelft.sem.template.authentication.authentication.JwtUserDetailsServiceTests]: JwtUserDetailsServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:05:04.779 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\build\classes\java\main\nl\tudelft\sem\template\authentication\Application.class]
+15:05:04.780 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration nl.tudelft.sem.template.authentication.Application for test class nl.tudelft.sem.template.authentication.authentication.JwtUserDetailsServiceTests
+15:05:04.863 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [nl.tudelft.sem.template.authentication.authentication.JwtUserDetailsServiceTests]: using defaults.
+15:05:04.863 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:05:04.876 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7ef8eda7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@115ca7de, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@29fe4840, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7f287b98, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4684240f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32120956, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6975fb1c, org.springframework.test.context.event.EventPublishingTestExecutionListener@553da911, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@327e5be5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1084ac45, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@566f1852, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ea246af, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2e4389ed, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1b90fee4]
+15:05:04.880 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6fc0bbc6 testClass = JwtUserDetailsServiceTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@706ddbc8 testClass = JwtUserDetailsServiceTests, locations = '{}', classes = '{class nl.tudelft.sem.template.authentication.Application}', contextInitializerClasses = '[]', activeProfiles = '{mockPasswordEncoder, test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27be17c8, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6f6c6077, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@31120021, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@72503b19, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4149c063], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [true] with mode [BEFORE_EACH_TEST_METHOD].
+15:05:04.897 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [mockPasswordEncoder, test]
+15:05:04.900 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-23 15:05:05.115  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : Starting JwtUserDetailsServiceTests on CodeKiller with PID 33132 (started by Bogdan in C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice)
+2023-01-23 15:05:05.116  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : The following profiles are active: mockPasswordEncoder,test
+2023-01-23 15:05:05.509  INFO 33132 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:05:05.557  INFO 33132 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 1 JPA repository interfaces.
+2023-01-23 15:05:06.204  INFO 33132 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:05:06.261  INFO 33132 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.22.Final
+2023-01-23 15:05:06.300  INFO 33132 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-01-23 15:05:06.575  INFO 33132 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-23 15:05:06.755  WARN 33132 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.template.authentication.domain.user.Allergens] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:05:06.763  WARN 33132 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.template.authentication.domain.user.Role] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:05:07.036  INFO 33132 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:05:07.042  INFO 33132 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:05:07.439  WARN 33132 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:05:08.134  INFO 33132 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-23 15:05:08.260  INFO 33132 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-23 15:05:08.898  INFO 33132 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1142843c, org.springframework.security.web.context.SecurityContextPersistenceFilter@37e967df, org.springframework.security.web.header.HeaderWriterFilter@6c289070, org.springframework.security.web.authentication.logout.LogoutFilter@6cb5a64d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53b60595, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cbb394b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3993cecb, org.springframework.security.web.session.SessionManagementFilter@31a9eaa, org.springframework.security.web.access.ExceptionTranslationFilter@6db59e26, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f6ede9]
+2023-01-23 15:05:08.977  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : Started JwtUserDetailsServiceTests in 4.069 seconds (JVM running for 6.083)
+2023-01-23 15:05:08.997  INFO 33132 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-23 15:05:08.998  INFO 33132 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-23 15:05:09.055  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : Starting JwtUserDetailsServiceTests on CodeKiller with PID 33132 (started by Bogdan in C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice)
+2023-01-23 15:05:09.055  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : The following profiles are active: mockPasswordEncoder,test
+2023-01-23 15:05:09.198  INFO 33132 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:05:09.212  INFO 33132 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 1 JPA repository interfaces.
+2023-01-23 15:05:09.406  INFO 33132 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:05:09.416  INFO 33132 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-23 15:05:09.428  WARN 33132 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.template.authentication.domain.user.Allergens] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:05:09.436  WARN 33132 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.template.authentication.domain.user.Role] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:05:09.457  INFO 33132 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:05:09.457  INFO 33132 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:05:09.599  WARN 33132 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:05:09.824  INFO 33132 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-23 15:05:09.844  INFO 33132 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-23 15:05:10.129  INFO 33132 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e50e308, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e8359da, org.springframework.security.web.header.HeaderWriterFilter@5852605c, org.springframework.security.web.authentication.logout.LogoutFilter@6dacde96, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36b6802f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d2d5625, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28ab7ffb, org.springframework.security.web.session.SessionManagementFilter@2acfd27b, org.springframework.security.web.access.ExceptionTranslationFilter@6ea0dfaa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3aa4d595]
+2023-01-23 15:05:10.170  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : Started JwtUserDetailsServiceTests in 1.167 seconds (JVM running for 7.277)
+2023-01-23 15:05:10.366  INFO 33132 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-23 15:05:10.367  INFO 33132 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-23 15:05:10.414  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : Starting JwtUserDetailsServiceTests on CodeKiller with PID 33132 (started by Bogdan in C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice)
+2023-01-23 15:05:10.414  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : The following profiles are active: mockPasswordEncoder,test
+2023-01-23 15:05:10.547  INFO 33132 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:05:10.560  INFO 33132 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 1 JPA repository interfaces.
+2023-01-23 15:05:10.701  INFO 33132 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:05:10.711  INFO 33132 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-23 15:05:10.724  WARN 33132 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.template.authentication.domain.user.Allergens] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:05:10.730  WARN 33132 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.template.authentication.domain.user.Role] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-23 15:05:10.747  INFO 33132 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:05:10.747  INFO 33132 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:05:10.864  WARN 33132 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:05:11.029  INFO 33132 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-23 15:05:11.043  INFO 33132 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-01-23 15:05:11.208  INFO 33132 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11893180, org.springframework.security.web.context.SecurityContextPersistenceFilter@63c6579, org.springframework.security.web.header.HeaderWriterFilter@42b4cce1, org.springframework.security.web.authentication.logout.LogoutFilter@7821d009, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c7a699b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38cd7531, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74f1e112, org.springframework.security.web.session.SessionManagementFilter@67f8586f, org.springframework.security.web.access.ExceptionTranslationFilter@37ddb835, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b87c881]
+2023-01-23 15:05:11.233  INFO 33132 --- [    Test worker] n.t.s.t.a.a.JwtUserDetailsServiceTests   : Started JwtUserDetailsServiceTests in 0.864 seconds (JVM running for 8.339)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at Jan 23, 2023, 3:05:27 PM</p>
+</div>
+</div>
+</body>
+</html>

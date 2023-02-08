@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\authentication\AuthManagerTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\authentication\JwtAuthenticationEntryPointTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\authentication\JwtRequestFilterTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\authentication\JwtTokenVerifierTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\domain\CancelOrderTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\domain\GetOrderTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\domain\ModifyOrderTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\domain\PayOrderTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\domain\SendOrderTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\domain\StoreTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\integration\CouponControllerTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\profiles\MockAuthenticationManagerProfile.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\profiles\MockTokenVerifierProfile.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\services\ApplyCouponServiceTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\services\CreateCouponServiceTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\services\StoreServiceTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\ActivationCodeTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\CouponBasicTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\CouponTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\DateValidatorTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\ItemTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\OrderTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\ProductMicroserviceAdapterTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\ProductTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\StoreIdAdapterTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\StoreNameAttributeConverterTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\StoreNameTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\test\java\nl\tudelft\sem\template\order\simpleClasses\StoreTest.java">
+</file>
+</checkstyle>

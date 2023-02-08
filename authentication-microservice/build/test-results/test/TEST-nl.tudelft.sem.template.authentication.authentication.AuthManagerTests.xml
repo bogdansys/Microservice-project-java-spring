@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:03" hostname="CODEKILLER" time="0.072">
+  <properties/>
+  <testcase name="getEmailNoToken()" classname="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" time="0.063"/>
+  <testcase name="getEmailObjectTestNoError()" classname="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" time="0.002"/>
+  <testcase name="getRoleTestNoError()" classname="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" time="0.0"/>
+  <testcase name="getRoleTestNoToken()" classname="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" time="0.001"/>
+  <testcase name="getEmailTestNoError()" classname="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" time="0.0"/>
+  <testcase name="getEmailObjectNoToken()" classname="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" time="0.001"/>
+  <testcase name="getRoleObjectTestNoError()" classname="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" time="0.003"/>
+  <testcase name="getRoleObjectTestNoToken()" classname="nl.tudelft.sem.template.authentication.authentication.AuthManagerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

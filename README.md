@@ -1,1 +1,1 @@
-# java-spring-microservice-project
+A pizza delivery application's backend server written in Java using the Spring framework and Spring security for secure login and registration. It utilizes an h2 database and implements a microservice architecture to demonstrate the integration of design patterns in a real-world scenario.

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\Application.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\authentication\AuthManager.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\authentication\Credentials.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\authentication\JwtAuthenticationEntryPoint.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\authentication\JwtRequestFilter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\authentication\JwtTokenGenerator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\authentication\JwtTokenVerifier.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\authentication\JwtUserDetailsService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\config\H2Config.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\config\WebSecurityConfig.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\controllers\AuthenticationController.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\providers\TimeProvider.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\providers\implementations\CurrentTimeProvider.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\AdminRole.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\AllergenAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\Allergens.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\AppUser.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\Email.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\EmailAlreadyInUseException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\EmailAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\HashedPassword.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\HashedPasswordAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\Password.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\PasswordHashingService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\RegistrationService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\Role.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\RoleAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\RoleDoesntExistException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\StoreOwnerRole.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\UserRepository.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\domain\user\UserRole.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\AddAllergenRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\AllUsersResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\AllergenResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\AuthenticationRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\AuthenticationResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\DeleteUserRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\PasswordChangeRequest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\RegistrationRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\StoreIdResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\main\java\nl\tudelft\sem\template\authentication\models\TokenRequestModel.java">
+</file>
+</checkstyle>

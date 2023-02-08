@@ -1,0 +1,63 @@
+2023-01-14 22:09:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA.CUSTOMERID[*] == CUSTOMERID "; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data.customerId == customerID  [42000-200]
+2023-01-14 22:11:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA.CUSTOMERID[*] == CUSTOMERID "; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data.customerId == customerID  [42000-200]
+2023-01-14 22:16:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA.CUSTOMERID[*] == CUSTOMERID "; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data.customerId == customerID  [42000-200]
+2023-01-14 22:16:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDER[*] O WHERE O.DATA.CUSTOMERID == CUSTOMERID "; expected "identifier"; SQL statement:
+SELECT * FROM ORDER O WHERE O.data.customerId == customerID  [42001-200]
+2023-01-14 22:16:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDER[*] O WHERE O.DATA.CUSTOMERID == CUSTOMERID "; expected "identifier"; SQL statement:
+SELECT * FROM ORDER O WHERE O.data.customerId == customerID  [42001-200]
+2023-01-14 22:17:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDER[*] O WHERE O.DATA.CUSTOMERID == CUSTOMERID "; expected "identifier"; SQL statement:
+SELECT * FROM ORDER O WHERE O.data.customerId == customerID  [42001-200]
+2023-01-14 22:18:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDER[*] O  "; expected "identifier"; SQL statement:
+SELECT * FROM ORDER O   [42001-200]
+2023-01-14 22:18:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDER[*] O  "; expected "identifier"; SQL statement:
+SELECT * FROM ORDER O   [42001-200]
+2023-01-14 22:18:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDER[*] O  "; expected "identifier"; SQL statement:
+SELECT * FROM ORDER O   [42001-200]
+2023-01-14 22:18:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDER[*]  "; expected "identifier"; SQL statement:
+SELECT * FROM ORDER   [42001-200]
+2023-01-14 22:19:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA.CUSTOMERID[*] == CUSTOMERID "; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data.customerId == customerID  [42000-200]
+2023-01-14 23:05:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA.CUSTOMERID[*] == CUSTOMERID "; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data.customerId == customerId  [42000-200]
+2023-01-14 23:07:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "barack@protonmail.com,2,UNPAID,,0.0,0.0"; SQL statement:
+SELECT * FROM ORDERS O WHERE O.DATA [22018-200]
+2023-01-14 23:07:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "barack@protonmail.com,2,UNPAID,,0.0,0.0"; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data [22018-200]
+2023-01-14 23:08:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA[*] == NULL"; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data == null [42000-200]
+2023-01-14 23:08:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA[*] == NULL"; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data == null [42000-200]
+2023-01-14 23:08:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA[*] == NULL"; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data == null [42000-200]
+2023-01-14 23:08:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA[*] == NULL"; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data == null [42000-200]
+2023-01-14 23:09:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA != NULL AND O.DATA-[*]>>'customerId' = CUSTOMERID"; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data != null AND O.data->>'customerId' = customerId [42000-200]
+2023-01-14 23:11:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA != NULL AND O.DATA-[*]>>'customerId' = CUSTOMERID"; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data != null AND O.data->>'customerId' = customerId [42000-200]
+2023-01-14 23:23:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ORDERS O WHERE O.DATA.STOREID[*] == STOREID "; SQL statement:
+SELECT * FROM ORDERS O WHERE O.data.storeId == storeId  [42000-200]

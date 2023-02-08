@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Papa Delft",
+    "_class": "nl.tudelft.sem.template.order.domain.store.Store"
+  },
+  {
+    "name": "Papa Rotterdam",
+    "_class": "nl.tudelft.sem.template.order.domain.store.Store"
+  }
+]

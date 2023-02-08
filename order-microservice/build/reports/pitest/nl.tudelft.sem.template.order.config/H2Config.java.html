@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>H2Config.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package nl.tudelft.sem.template.order.config;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import javax.sql.DataSource;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import lombok.Getter;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.context.annotation.Bean;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.context.annotation.Configuration;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.context.annotation.PropertySource;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.core.env.Environment;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.data.jpa.repository.config.EnableJpaRepositories;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.jdbc.datasource.DriverManagerDataSource;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.transaction.annotation.EnableTransactionManagement;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//jackson populator imports</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//import org.springframework.core.io.ClassPathResource;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//import org.springframework.core.io.Resource;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//import org.springframework.data.repository.init.Jackson2RepositoryPopulatorFactoryBean;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * The H2 config.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>@Configuration</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>@EnableJpaRepositories(&#34;nl.tudelft.sem.template.order.domain&#34;)</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>@PropertySource(&#34;classpath:application-dev.properties&#34;)</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>@EnableTransactionManagement</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class H2Config {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class=''>    @Getter</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final Environment environment;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public H2Config(Environment environment) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_32'/>
+32
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_32'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.environment = environment;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_33'/>
+33
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_33'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_34'/>
+34
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_34'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_36'/>
+36
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_36'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Set up the connection to the database.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_37'/>
+37
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_37'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_38'/>
+38
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_38'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * @return The data source.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_40'/>
+40
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_40'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Bean</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_41'/>
+41
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_41'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public DataSource dataSource() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_42'/>
+42
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_42'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        DriverManagerDataSource dataSource = new DriverManagerDataSource();</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_43'/>
+43
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_43'>1</a>
+<span>
+
+1. dataSource : removed call to org/springframework/jdbc/datasource/DriverManagerDataSource::setDriverClassName &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        dataSource.setDriverClassName(environment.getProperty(&#34;jdbc.driverClassName&#34;));</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_44'/>
+44
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_44'>1</a>
+<span>
+
+1. dataSource : removed call to org/springframework/jdbc/datasource/DriverManagerDataSource::setUrl &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        dataSource.setUrl(environment.getProperty(&#34;jdbc.url&#34;));</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_45'/>
+45
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_45'>1</a>
+<span>
+
+1. dataSource : removed call to org/springframework/jdbc/datasource/DriverManagerDataSource::setUsername &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        dataSource.setUsername(environment.getProperty(&#34;jdbc.user&#34;));</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_46'/>
+46
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_46'>1</a>
+<span>
+
+1. dataSource : removed call to org/springframework/jdbc/datasource/DriverManagerDataSource::setPassword &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        dataSource.setPassword(environment.getProperty(&#34;jdbc.pass&#34;));</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_47'/>
+47
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_47'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_48'/>
+48
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_48'>1</a>
+<span>
+
+1. dataSource : replaced return value with null for nl/tudelft/sem/template/order/config/H2Config::dataSource &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return dataSource;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_49'/>
+49
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_49'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_50'/>
+50
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_50'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_51'/>
+51
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_51'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    /**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_52'/>
+52
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_52'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Jackson Populator - populates the toppings table and then the products table</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_53'/>
+53
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_53'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * before runtime with the contents of toppings.json and products.json respectively</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_54'/>
+54
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_54'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     *</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_55'/>
+55
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_55'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * Note: only uncomment this (and imports) when first run, and then comment after first run</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_56'/>
+56
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_56'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     * i.e. only should populate the database one time - otherwise will error</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_57'/>
+57
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_57'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>     */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_58'/>
+58
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_58'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//    @Bean</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_59'/>
+59
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_59'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//    public Jackson2RepositoryPopulatorFactoryBean getRespositoryPopulator() {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_60'/>
+60
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_60'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//        Jackson2RepositoryPopulatorFactoryBean factory = new Jackson2RepositoryPopulatorFactoryBean();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_61'/>
+61
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_61'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//        factory.setResources(new Resource[]{new ClassPathResource(&#34;stores.json&#34;)});</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_62'/>
+62
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_62'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//        return factory;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_63'/>
+63
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_63'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7df3da0b_64'/>
+64
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_64'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7df3da0b_43'>43</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_43'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>dataSource<br/><b>Killed by : </b>none</span></span> removed call to org/springframework/jdbc/datasource/DriverManagerDataSource::setDriverClassName &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7df3da0b_44'>44</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_44'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>dataSource<br/><b>Killed by : </b>nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest]/[method:testGetUsersStoreId()]</span></span> removed call to org/springframework/jdbc/datasource/DriverManagerDataSource::setUrl &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7df3da0b_45'>45</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_45'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>dataSource<br/><b>Killed by : </b>none</span></span> removed call to org/springframework/jdbc/datasource/DriverManagerDataSource::setUsername &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7df3da0b_46'>46</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_46'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>dataSource<br/><b>Killed by : </b>none</span></span> removed call to org/springframework/jdbc/datasource/DriverManagerDataSource::setPassword &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7df3da0b_48'>48</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7df3da0b_48'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>dataSource<br/><b>Killed by : </b>nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest]/[method:testGetUsersStoreId()]</span></span> replaced return value with null for nl/tudelft/sem/template/order/config/H2Config::dataSource &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrderUser()] (588 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:getCouponsUserRestricted()] (584 ms)</li><li>nl.tudelft.sem.template.order.services.ApplyCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.ApplyCouponServiceTest]/[method:testStrategyTypes()] (546 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveLastToppingSuccessful()] (590 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:deleteCouponSuccess()] (601 ms)</li><li>nl.tudelft.sem.template.order.services.StoreServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.StoreServiceTest]/[method:testAddStore()] (568 ms)</li><li>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testExceptionsAddCoupon()] (573 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrderStoreOwner()] (589 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrderEmpty()] (579 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:OrderServicegetOrdersEmpty()] (589 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:setAddToOrderServiceAddToppingThrowsAlreadyCancelled()] (556 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponUserRestricted()] (611 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.StoreNameAttributeConverterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreNameAttributeConverterTest]/[method:testConvertToEntityAttribute()] (561 ms)</li><li>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testAddCoupon()] (551 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testAddFirstToppingSuccessful()] (586 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponStoreOwnerInvalidStore()] (605 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.ProductMicroserviceAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.ProductMicroserviceAdapterTest]/[method:testVerifyToppings()] (569 ms)</li><li>nl.tudelft.sem.template.order.authentication.AuthManagerTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.authentication.AuthManagerTests]/[method:getEmailTest()] (5 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveToppingChangesOrderTwoToppings()] (594 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveProductSuccessful()] (553 ms)</li><li>nl.tudelft.sem.template.order.services.StoreServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.StoreServiceTest]/[method:testListAll()] (586 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testPayOrderMinTime()] (560 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:checkStatusMethodCancelled()] (574 ms)</li><li>nl.tudelft.sem.template.order.domain.StoreTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.StoreTests]/[method:testAddStore()] (584 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testWrongCustomer()] (585 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidType()] (568 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveTwoProductsSameOrder()] (570 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testPayOrderMaxTime()] (556 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveToppingChangesOrderOneTopping()] (550 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrdersManager()] (575 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:getCouponsEmpty()] (590 ms)</li><li>nl.tudelft.sem.template.order.services.StoreServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.StoreServiceTest]/[method:testAddStoreThrowsException()] (565 ms)</li><li>nl.tudelft.sem.template.order.domain.SendOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.SendOrderTests]/[method:testSendOrderWithDuplicates()] (562 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:setAddToOrderServiceAddProductThrowsAlreadyCancelled()] (554 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest]/[method:testGetUsersStoreId()] (553 ms)</li><li>nl.tudelft.sem.template.order.services.ApplyCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.ApplyCouponServiceTest]/[method:testApplyCoupon()] (559 ms)</li><li>nl.tudelft.sem.template.order.domain.SendOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.SendOrderTests]/[method:testSendEmptyOrder()] (568 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.StoreNameAttributeConverterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreNameAttributeConverterTest]/[method:testConvertToDatabaseColumn()] (594 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:deleteCouponDoesntExist()] (589 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testAddToppingChangesOrder()] (577 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:setAddToOrderServiceAddToppingThrowsAlreadyPaid()] (562 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.ProductMicroserviceAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.ProductMicroserviceAdapterTest]/[method:testVerifyProducts()] (555 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testPayOrder()] (568 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrderManager()] (592 ms)</li><li>nl.tudelft.sem.template.order.domain.SendOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.SendOrderTests]/[method:testSendOrder()] (573 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testPayOrderAlready()] (564 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidDiscountPercentage()] (566 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:setAddToOrderServiceAddProductThrowsAlreadyPaid()] (553 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidCode()] (569 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponStoreOwnerValidCoupon()] (634 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrdersUser()] (582 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testControllerRemoveProductsUnauthorised()] (590 ms)</li><li>nl.tudelft.sem.template.order.services.StoreServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.StoreServiceTest]/[method:checkId()] (556 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:deleteCouponsUserRestricted()] (579 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrdersStoreOwner()] (561 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponAdminValidCoupon()] (593 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:checkStatusMethodPaid()] (564 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.5.1
+
+</body>
+</html>

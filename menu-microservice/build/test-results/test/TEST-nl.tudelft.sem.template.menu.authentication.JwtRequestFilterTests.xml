@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:29" hostname="CODEKILLER" time="0.125">
+  <properties/>
+  <testcase name="correctToken()" classname="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" time="0.072"/>
+  <testcase name="invalidPrefix()" classname="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" time="0.003"/>
+  <testcase name="[1] throwable=class io.jsonwebtoken.ExpiredJwtException" classname="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" time="0.016"/>
+  <testcase name="[2] throwable=class java.lang.IllegalArgumentException" classname="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" time="0.003"/>
+  <testcase name="[3] throwable=class io.jsonwebtoken.JwtException" classname="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" time="0.003"/>
+  <testcase name="invalidToken()" classname="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" time="0.002"/>
+  <testcase name="noPrefix()" classname="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" time="0.002"/>
+  <testcase name="nullToken()" classname="nl.tudelft.sem.template.menu.authentication.JwtRequestFilterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid authorization header
+JWT token has expired.
+Unable to parse JWT token
+Unable to parse JWT token
+Invalid authorization header
+]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:35" hostname="CODEKILLER" time="0.009">
+  <properties/>
+  <testcase name="testToString()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.005"/>
+  <testcase name="toUserString()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.0"/>
+  <testcase name="getName()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.0"/>
+  <testcase name="getAllergens()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.0"/>
+  <testcase name="getId()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.0"/>
+  <testcase name="testHashCode()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.001"/>
+  <testcase name="getToppings()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.0"/>
+  <testcase name="testEquals()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.0"/>
+  <testcase name="getPrice()" classname="nl.tudelft.sem.template.menu.simpleClasses.ProductTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

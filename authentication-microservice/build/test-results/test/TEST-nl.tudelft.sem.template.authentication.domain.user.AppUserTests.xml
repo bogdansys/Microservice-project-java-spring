@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:11" hostname="CODEKILLER" time="0.003">
+  <properties/>
+  <testcase name="appUserGetEmail()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.001"/>
+  <testcase name="appUserGetRole()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.0"/>
+  <testcase name="appUserConstructorStoreOwner()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.0"/>
+  <testcase name="appUserConstructorNotStoreOwner()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.0"/>
+  <testcase name="appUserStoreIdStoreOwner()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.0"/>
+  <testcase name="appUserAllergens()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.0"/>
+  <testcase name="appUserSetPassword()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.001"/>
+  <testcase name="appUserGetPassword()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.0"/>
+  <testcase name="appUserStoreIdNotStoreOwner()" classname="nl.tudelft.sem.template.authentication.domain.user.AppUserTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

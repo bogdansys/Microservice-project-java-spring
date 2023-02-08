@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\Application.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\authentication\AuthManager.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\authentication\Credentials.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\authentication\JwtAuthenticationEntryPoint.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\authentication\JwtRequestFilter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\authentication\JwtTokenVerifier.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\config\H2Config.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\config\ProjectConfig.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\config\RequestAuthenticationConfig.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\controllers\CouponController.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\controllers\OrderController.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\controllers\StoreController.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\DateValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\ActivationCode.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\ActivationCodeAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\ApplyBOGOCouponStrategy.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\ApplyCouponService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\ApplyDiscountCouponStrategy.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\Coupon.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\CouponRepository.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\CreateCouponService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\ExpirationDateConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\PricingStrategy.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\ActivationCodeAlreadyInUseException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\ActivationCodeDoesNotExistException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\ActivationCodeIsExpiredException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\ActivationCodeIsNotValidException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\CanNotApplyBOGOCouponWithSingleProductException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\CouponAppliedAtIncorrectStoreException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\CouponDoesNotExistException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\CouponIsEmptyException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\CouponTypeNotValidException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\DiscountPercentageNotValidException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\ExpirationDateNotValidException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\exceptions\OrderIsEmptyException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\ActivationCodeIsNotValidValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\BaseValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\CheckIfActivationCodeExistsValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\CouponTypeNotValidValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\CouponValidatorRequest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\DiscountPercentageNotValidValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\ExpirationDateNotValidTooLateValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\ExpirationDateNotValidValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\StoreDoesNotExistValidator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\coupon\validators\Validator.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\item\Item.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\AddToOrderService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\BasicPricingStrategy.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\InvalidProductsException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\InvalidToppingsException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\ModifyOrderService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\NotValidPricingStrategyException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\Order.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderCancelledException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderCancelledOrPaidException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderData.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderDataConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderDoesNotExistException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderHelperService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderIsAlreadyPaidException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderRepository.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderStrategyConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\OrderUtils.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\Status.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\order\TooLateToCancelOrderException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\product\BasicProductInfo.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\product\Product.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\product\ProductDoesNotExistException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\product\ProductRepository.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\product\ProductService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\providers\DateProvider.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\providers\TimeProvider.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\providers\implementations\CurrentDateProvider.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\providers\implementations\CurrentTimeProvider.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\store\Store.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\store\StoreDoesNotExistException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\store\StoreName.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\store\StoreNameAlreadyInUseException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\store\StoreNameAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\store\StoreRepository.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\domain\store\StoreService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\framework\ProductMicroserviceAdapter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\framework\StoreIdAdapter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\AddProductsToOrderRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\AddStoreModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\AddToppingsToProductRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\AllergenResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\ApplyCouponModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\CancelOrderRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\CreateCouponRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\DeleteCouponModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\GetOrderModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\OrderResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\PayOrderModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\ProductResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\RemoveProductsFromOrderRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\RemoveToppingsFromProductRequestModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\SendOrderModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\StoreIdResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\order-microservice\src\main\java\nl\tudelft\sem\template\order\model\VerifyItemModel.java">
+</file>
+</checkstyle>

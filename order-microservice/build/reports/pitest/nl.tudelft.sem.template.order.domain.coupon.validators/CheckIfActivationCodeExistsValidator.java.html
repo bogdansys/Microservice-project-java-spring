@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>CheckIfActivationCodeExistsValidator.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package nl.tudelft.sem.template.order.domain.coupon.validators;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import nl.tudelft.sem.template.order.domain.coupon.ActivationCode;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import nl.tudelft.sem.template.order.domain.coupon.CouponRepository;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import nl.tudelft.sem.template.order.domain.coupon.exceptions.ActivationCodeAlreadyInUseException;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import nl.tudelft.sem.template.order.domain.providers.DateProvider;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import nl.tudelft.sem.template.order.domain.store.StoreRepository;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class CheckIfActivationCodeExistsValidator extends BaseValidator {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public CheckIfActivationCodeExistsValidator(CouponRepository couponRepository, StoreRepository storeRepository, DateProvider dateProvider) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        super(couponRepository, storeRepository, dateProvider);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    //throws exception if activation code already exists in database / is not unique</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public boolean handle(CouponValidatorRequest coupon) throws Exception {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_20'/>
+20
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_20'>1</a>
+<span>
+
+1. handle : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (checkIfActivationCodeExists(coupon.getActivationCode())) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            throw new ActivationCodeAlreadyInUseException(coupon.getActivationCode());</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_23'/>
+23
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_23'>1</a>
+<span>
+
+1. handle : removed call to nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::setNext &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        setNext(new CouponTypeNotValidValidator(couponRepository, storeRepository, dateProvider));</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_24'/>
+24
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_24'>2</a>
+<span>
+
+1. handle : replaced boolean return with true for nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::handle &rarr; SURVIVED<br/>
+
+2. handle : replaced boolean return with false for nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::handle &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        return checkNext(coupon);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public boolean checkIfActivationCodeExists(ActivationCode activationCode) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_28'/>
+28
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_28'>2</a>
+<span>
+
+1. checkIfActivationCodeExists : replaced boolean return with false for nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::checkIfActivationCodeExists &rarr; KILLED<br/>
+
+2. checkIfActivationCodeExists : replaced boolean return with true for nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::checkIfActivationCodeExists &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return couponRepository.existsByActivationCode(activationCode);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1328f482_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1328f482_20'>20</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_20'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>handle<br/><b>Killed by : </b>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testAddCoupon()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1328f482_23'>23</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_23'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>handle<br/><b>Killed by : </b>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidDiscountPercentage()]</span></span> removed call to nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::setNext &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1328f482_24'>24</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_24'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>handle<br/><b>Killed by : </b>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testAddCoupon()]</span></span> replaced boolean return with false for nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::handle &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>handle<br/><b>Killed by : </b>none</span></span> replaced boolean return with true for nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::handle &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1328f482_28'>28</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1328f482_28'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>checkIfActivationCodeExists<br/><b>Killed by : </b>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testExceptionsAddCoupon()]</span></span> replaced boolean return with false for nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::checkIfActivationCodeExists &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>checkIfActivationCodeExists<br/><b>Killed by : </b>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testAddCoupon()]</span></span> replaced boolean return with true for nl/tudelft/sem/template/order/domain/coupon/validators/CheckIfActivationCodeExistsValidator::checkIfActivationCodeExists &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:deleteCouponSuccess()] (601 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidType()] (568 ms)</li><li>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testAddCoupon()] (551 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidDiscountPercentage()] (566 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponStoreOwnerInvalidStore()] (605 ms)</li><li>nl.tudelft.sem.template.order.authentication.AuthManagerTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.authentication.AuthManagerTests]/[method:getEmailTest()] (5 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponAdminValidCoupon()] (593 ms)</li><li>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testExceptionsAddCoupon()] (573 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponStoreOwnerValidCoupon()] (634 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.5.1
+
+</body>
+</html>

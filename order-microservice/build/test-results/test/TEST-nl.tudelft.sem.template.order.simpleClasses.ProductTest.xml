@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.order.simpleClasses.ProductTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:06:20" hostname="CODEKILLER" time="0.003">
+  <properties/>
+  <testcase name="testHasCode()" classname="nl.tudelft.sem.template.order.simpleClasses.ProductTest" time="0.0"/>
+  <testcase name="testEquality()" classname="nl.tudelft.sem.template.order.simpleClasses.ProductTest" time="0.0"/>
+  <testcase name="basicProductCreation()" classname="nl.tudelft.sem.template.order.simpleClasses.ProductTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

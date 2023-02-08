@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:06:18" hostname="CODEKILLER" time="0.002">
+  <properties/>
+  <testcase name="testMonthTooHigh()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="testDayFirst()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="testDayTooHigh()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="wrongFormatUsesDots()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="testValidDate()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="testMonthTooLow()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.001"/>
+  <testcase name="testDayTooLow()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="testYearInMiddle()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="wrongFormatUsesNothing()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="wrongFormatUsesSlashes()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <testcase name="testMonthFirst()" classname="nl.tudelft.sem.template.order.simpleClasses.DateValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

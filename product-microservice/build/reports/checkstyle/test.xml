@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\authentication\AuthManagerTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\authentication\JwtAuthenticationEntryPointTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\authentication\JwtRequestFilterTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\authentication\JwtTokenVerifierTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\integration\ProductControllerTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\profiles\MockAuthenticationManagerProfile.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\profiles\MockTokenVerifierProfile.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\simpleClasses\PriceTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\simpleClasses\ProductNameTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\simpleClasses\ProductTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\simpleClasses\ToppingNameTest.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\test\java\nl\tudelft\sem\template\product\simpleClasses\ToppingTest.java">
+</file>
+</checkstyle>

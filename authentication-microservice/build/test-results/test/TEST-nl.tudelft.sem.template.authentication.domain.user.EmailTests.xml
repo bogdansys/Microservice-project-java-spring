@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.domain.user.EmailTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:11" hostname="CODEKILLER" time="0.003">
+  <properties/>
+  <testcase name="testEmailToString()" classname="nl.tudelft.sem.template.authentication.domain.user.EmailTests" time="0.0"/>
+  <testcase name="testNothingBeforeAt()" classname="nl.tudelft.sem.template.authentication.domain.user.EmailTests" time="0.001"/>
+  <testcase name="testInvalidEmailNoAtSymbol()" classname="nl.tudelft.sem.template.authentication.domain.user.EmailTests" time="0.001"/>
+  <testcase name="testNothingAfterAt()" classname="nl.tudelft.sem.template.authentication.domain.user.EmailTests" time="0.001"/>
+  <testcase name="validEmails()" classname="nl.tudelft.sem.template.authentication.domain.user.EmailTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

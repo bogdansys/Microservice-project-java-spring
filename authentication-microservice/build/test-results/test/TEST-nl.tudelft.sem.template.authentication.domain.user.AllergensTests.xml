@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:11" hostname="CODEKILLER" time="0.007">
+  <properties/>
+  <testcase name="testAllergensConstructor()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.001"/>
+  <testcase name="testRemoveAllergenExists()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testHasAllergenTrue()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.001"/>
+  <testcase name="testNoArgsConstructor()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testAllergenSizeNonZero()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.001"/>
+  <testcase name="testContainsAllergenHasAllergen()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testContainsAllergenDoesntHaveAllergen()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testAddAllergenAlreadyThere()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testRemoveAllergenDoesntExists()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testAllergenSizeZero()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testNullAllergensConstructor()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testGetAllergens()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.001"/>
+  <testcase name="testAddAllergenNotAlreadyThere()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testAllergenToStringFull()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <testcase name="testAllergenToStringNone()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.001"/>
+  <testcase name="testHasAllergenFalse()" classname="nl.tudelft.sem.template.authentication.domain.user.AllergensTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

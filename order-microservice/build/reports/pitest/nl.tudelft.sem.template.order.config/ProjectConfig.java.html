@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>ProjectConfig.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package nl.tudelft.sem.template.order.config;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.context.annotation.Bean;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.context.annotation.Configuration;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.web.client.RestTemplate;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>@Configuration</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class ProjectConfig {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Bean</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public RestTemplate restTemplate() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_11'/>
+11
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_11'>1</a>
+<span>
+
+1. restTemplate : replaced return value with null for nl/tudelft/sem/template/order/config/ProjectConfig::restTemplate &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return new RestTemplate();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7884f722_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7884f722_11'>11</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7884f722_11'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>restTemplate<br/><b>Killed by : </b>nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest]/[method:testGetUsersStoreId()]</span></span> replaced return value with null for nl/tudelft/sem/template/order/config/ProjectConfig::restTemplate &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrderUser()] (588 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:getCouponsUserRestricted()] (584 ms)</li><li>nl.tudelft.sem.template.order.services.ApplyCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.ApplyCouponServiceTest]/[method:testStrategyTypes()] (546 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveLastToppingSuccessful()] (590 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:deleteCouponSuccess()] (601 ms)</li><li>nl.tudelft.sem.template.order.services.StoreServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.StoreServiceTest]/[method:testAddStore()] (568 ms)</li><li>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testExceptionsAddCoupon()] (573 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrderStoreOwner()] (589 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrderEmpty()] (579 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:OrderServicegetOrdersEmpty()] (589 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:setAddToOrderServiceAddToppingThrowsAlreadyCancelled()] (556 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponUserRestricted()] (611 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.StoreNameAttributeConverterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreNameAttributeConverterTest]/[method:testConvertToEntityAttribute()] (561 ms)</li><li>nl.tudelft.sem.template.order.services.CreateCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.CreateCouponServiceTest]/[method:testAddCoupon()] (551 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testAddFirstToppingSuccessful()] (586 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponStoreOwnerInvalidStore()] (605 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.ProductMicroserviceAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.ProductMicroserviceAdapterTest]/[method:testVerifyToppings()] (569 ms)</li><li>nl.tudelft.sem.template.order.authentication.AuthManagerTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.authentication.AuthManagerTests]/[method:getEmailTest()] (5 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveToppingChangesOrderTwoToppings()] (594 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveProductSuccessful()] (553 ms)</li><li>nl.tudelft.sem.template.order.services.StoreServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.StoreServiceTest]/[method:testListAll()] (586 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testPayOrderMinTime()] (560 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:checkStatusMethodCancelled()] (574 ms)</li><li>nl.tudelft.sem.template.order.domain.StoreTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.StoreTests]/[method:testAddStore()] (584 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testWrongCustomer()] (585 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidType()] (568 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveTwoProductsSameOrder()] (570 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testPayOrderMaxTime()] (556 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testRemoveToppingChangesOrderOneTopping()] (550 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrdersManager()] (575 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:getCouponsEmpty()] (590 ms)</li><li>nl.tudelft.sem.template.order.services.StoreServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.StoreServiceTest]/[method:testAddStoreThrowsException()] (565 ms)</li><li>nl.tudelft.sem.template.order.domain.SendOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.SendOrderTests]/[method:testSendOrderWithDuplicates()] (562 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:setAddToOrderServiceAddProductThrowsAlreadyCancelled()] (554 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreIdAdapterTest]/[method:testGetUsersStoreId()] (553 ms)</li><li>nl.tudelft.sem.template.order.services.ApplyCouponServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.ApplyCouponServiceTest]/[method:testApplyCoupon()] (559 ms)</li><li>nl.tudelft.sem.template.order.domain.SendOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.SendOrderTests]/[method:testSendEmptyOrder()] (568 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.StoreNameAttributeConverterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.StoreNameAttributeConverterTest]/[method:testConvertToDatabaseColumn()] (594 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:deleteCouponDoesntExist()] (589 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testAddToppingChangesOrder()] (577 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:setAddToOrderServiceAddToppingThrowsAlreadyPaid()] (562 ms)</li><li>nl.tudelft.sem.template.order.simpleClasses.ProductMicroserviceAdapterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.simpleClasses.ProductMicroserviceAdapterTest]/[method:testVerifyProducts()] (555 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testPayOrder()] (568 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrderManager()] (592 ms)</li><li>nl.tudelft.sem.template.order.domain.SendOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.SendOrderTests]/[method:testSendOrder()] (573 ms)</li><li>nl.tudelft.sem.template.order.domain.PayOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.PayOrderTests]/[method:testPayOrderAlready()] (564 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidDiscountPercentage()] (566 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:setAddToOrderServiceAddProductThrowsAlreadyPaid()] (553 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponInvalidCode()] (569 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponStoreOwnerValidCoupon()] (634 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrdersUser()] (582 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:testControllerRemoveProductsUnauthorised()] (590 ms)</li><li>nl.tudelft.sem.template.order.services.StoreServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.services.StoreServiceTest]/[method:checkId()] (556 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:deleteCouponsUserRestricted()] (579 ms)</li><li>nl.tudelft.sem.template.order.domain.GetOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.GetOrderTests]/[method:getOrdersStoreOwner()] (561 ms)</li><li>nl.tudelft.sem.template.order.integration.CouponControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.integration.CouponControllerTest]/[method:addCouponAdminValidCoupon()] (593 ms)</li><li>nl.tudelft.sem.template.order.domain.ModifyOrderTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.template.order.domain.ModifyOrderTests]/[method:checkStatusMethodPaid()] (564 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.5.1
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\authentication\AuthManagerTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\authentication\CredentialsTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\authentication\JwtAuthenticationEntryPointTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\authentication\JwtRequestFilterTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\authentication\JwtTokenGeneratorTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\authentication\JwtTokenVerifierTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\authentication\JwtUserDetailsServiceTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\AdminRoleTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\AllergensTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\AppUserTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\EmailTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\RegistrationServiceTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\RoleTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\RoleTypeTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\StoreOwnerRoleTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\domain\user\UserRoleTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\integration\UsersTests.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\integration\utils\JsonUtil.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\profiles\MockAuthenticationManagerProfile.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\profiles\MockPasswordEncoderProfile.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\authentication-microservice\src\test\java\nl\tudelft\sem\template\authentication\profiles\MockTokenGeneratorProfile.java">
+</file>
+</checkstyle>

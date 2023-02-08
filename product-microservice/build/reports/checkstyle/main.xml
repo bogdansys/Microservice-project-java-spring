@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\Application.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\authentication\AuthManager.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\authentication\Credentials.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\authentication\JwtAuthenticationEntryPoint.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\authentication\JwtRequestFilter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\authentication\JwtTokenVerifier.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\config\H2Config.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\config\ProjectConfig.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\config\RequestAuthenticationConfig.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\controllers\ProductController.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\controllers\ToppingController.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\InvalidPriceException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\Price.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\PriceAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\item\Item.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\product\Product.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\product\ProductName.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\product\ProductNameAlreadyInUseException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\product\ProductNameAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\product\ProductRepository.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\product\ProductService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\product\ProductWasCreatedEvent.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\topping\InvalidToppingsException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\topping\Topping.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\topping\ToppingName.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\topping\ToppingNameAlreadyInUseException.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\topping\ToppingNameAttributeConverter.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\topping\ToppingRepository.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\topping\ToppingService.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\domain\topping\ToppingWasCreatedEvent.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\model\AddProductModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\model\AddToppingModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\model\AllergenResponseModel.java">
+</file>
+<file name="C:\Users\Bogdan\Desktop\TU Delft\University Work\Year 2\Software Engineering Methods\Project\SEM04a\product-microservice\src\main\java\nl\tudelft\sem\template\product\model\VerifyItemModel.java">
+</file>
+</checkstyle>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.domain.user.AdminRoleTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:11" hostname="CODEKILLER" time="0.071">
+  <properties/>
+  <testcase name="adminUserDeleted()" classname="nl.tudelft.sem.template.authentication.domain.user.AdminRoleTests" time="0.037"/>
+  <testcase name="adminAllUsersEmpty()" classname="nl.tudelft.sem.template.authentication.domain.user.AdminRoleTests" time="0.026"/>
+  <testcase name="adminAllUsersSizeOne()" classname="nl.tudelft.sem.template.authentication.domain.user.AdminRoleTests" time="0.006"/>
+  <testcase name="adminUserNotDeleted()" classname="nl.tudelft.sem.template.authentication.domain.user.AdminRoleTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

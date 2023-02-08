@@ -1,0 +1,6 @@
+rootProject.name = 'Anni\'s pizzas'
+
+include 'authentication-microservice'
+include 'order-microservice'
+include 'menu-microservice'
+

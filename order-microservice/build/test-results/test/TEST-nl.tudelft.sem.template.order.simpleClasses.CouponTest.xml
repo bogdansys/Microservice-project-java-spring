@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.order.simpleClasses.CouponTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:06:18" hostname="CODEKILLER" time="0.004">
+  <properties/>
+  <testcase name="testCouponsNotEqual()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.001"/>
+  <testcase name="testIsValidCouponTypeBuyOne()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.001"/>
+  <testcase name="testTranslateInvalid()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.0"/>
+  <testcase name="testTranslateToCouponDiscount()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.0"/>
+  <testcase name="testBuyOneCouponToString()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.001"/>
+  <testcase name="testTranslateToCouponBuyOneGetOne()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.0"/>
+  <testcase name="testCouponEqual()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.0"/>
+  <testcase name="testIsValidCouponTypeDiscount()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.0"/>
+  <testcase name="testIsNotValidCouponType()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.0"/>
+  <testcase name="testDiscountCouponToString()" classname="nl.tudelft.sem.template.order.simpleClasses.CouponTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

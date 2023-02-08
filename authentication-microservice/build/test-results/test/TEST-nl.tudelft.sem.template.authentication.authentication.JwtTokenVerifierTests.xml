@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.authentication.JwtTokenVerifierTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:04" hostname="CODEKILLER" time="0.009">
+  <properties/>
+  <testcase name="testGetEmailFromToken()" classname="nl.tudelft.sem.template.authentication.authentication.JwtTokenVerifierTests" time="0.002"/>
+  <testcase name="testGetRoleFromToken()" classname="nl.tudelft.sem.template.authentication.authentication.JwtTokenVerifierTests" time="0.002"/>
+  <testcase name="testGetExpirationDateFromToken()" classname="nl.tudelft.sem.template.authentication.authentication.JwtTokenVerifierTests" time="0.002"/>
+  <testcase name="testValidateToken()" classname="nl.tudelft.sem.template.authentication.authentication.JwtTokenVerifierTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.order.domain.CancelOrderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:38" hostname="CODEKILLER" time="0.067">
+  <properties/>
+  <testcase name="testCancelOrderWithValidDeliveryTime()" classname="nl.tudelft.sem.template.order.domain.CancelOrderTests" time="0.058"/>
+  <testcase name="testCancelNonexistentOrder()" classname="nl.tudelft.sem.template.order.domain.CancelOrderTests" time="0.004"/>
+  <testcase name="testCancelCancelledOrder()" classname="nl.tudelft.sem.template.order.domain.CancelOrderTests" time="0.002"/>
+  <testcase name="testCancelOrderWithInvalidDeliveryTime()" classname="nl.tudelft.sem.template.order.domain.CancelOrderTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

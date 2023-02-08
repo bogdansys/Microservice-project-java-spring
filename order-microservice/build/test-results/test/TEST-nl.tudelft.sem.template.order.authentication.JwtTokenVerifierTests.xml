@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.order.authentication.JwtTokenVerifierTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:38" hostname="CODEKILLER" time="0.224">
+  <properties/>
+  <testcase name="validateExpiredToken()" classname="nl.tudelft.sem.template.order.authentication.JwtTokenVerifierTests" time="0.217"/>
+  <testcase name="parseEmail()" classname="nl.tudelft.sem.template.order.authentication.JwtTokenVerifierTests" time="0.002"/>
+  <testcase name="validateTokenIncorrectSignature()" classname="nl.tudelft.sem.template.order.authentication.JwtTokenVerifierTests" time="0.001"/>
+  <testcase name="validateNonExpiredToken()" classname="nl.tudelft.sem.template.order.authentication.JwtTokenVerifierTests" time="0.001"/>
+  <testcase name="validateMalformedToken()" classname="nl.tudelft.sem.template.order.authentication.JwtTokenVerifierTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

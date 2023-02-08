@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.domain.user.RoleTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:13" hostname="CODEKILLER" time="0.042">
+  <properties/>
+  <testcase name="testGetAllergensEmpty()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.007"/>
+  <testcase name="testStoreOwnerToString()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testUserToString()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.0"/>
+  <testcase name="testFailingUserRepository()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.01"/>
+  <testcase name="testCreateRoleAdmin()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.0"/>
+  <testcase name="testCreateRoleOther()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testAdminToString()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.0"/>
+  <testcase name="testUserGetRole()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testGetAllergensFull()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testGetAllergensNull()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.011"/>
+  <testcase name="testAuthenticateDisabledException()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testAuthenticateInvalidCredentials()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testCreateRoleUser()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.0"/>
+  <testcase name="testCreateRoleStoreOwner()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.0"/>
+  <testcase name="testAuthenticateWorks()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testAdminGetRole()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testStoreOwnerGetRole()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <testcase name="testAuthenticateUnsuccessful()" classname="nl.tudelft.sem.template.authentication.domain.user.RoleTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

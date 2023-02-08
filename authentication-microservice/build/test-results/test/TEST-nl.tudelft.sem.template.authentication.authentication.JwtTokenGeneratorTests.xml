@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.authentication.JwtTokenGeneratorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-01-23T14:05:04" hostname="CODEKILLER" time="0.22">
+  <properties/>
+  <testcase name="generatedTokenHasCorrectNetId()" classname="nl.tudelft.sem.template.authentication.authentication.JwtTokenGeneratorTests" time="0.211"/>
+  <testcase name="generatedTokenHasCorrectExpirationDate()" classname="nl.tudelft.sem.template.authentication.authentication.JwtTokenGeneratorTests" time="0.005"/>
+  <testcase name="generatedTokenHasCorrectIssuanceDate()" classname="nl.tudelft.sem.template.authentication.authentication.JwtTokenGeneratorTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

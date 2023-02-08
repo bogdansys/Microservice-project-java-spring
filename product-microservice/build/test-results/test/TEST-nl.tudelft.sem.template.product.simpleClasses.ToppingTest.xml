@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-12-21T15:09:25" hostname="CODEKILLER" time="0.006">
+  <properties/>
+  <testcase name="testToString()" classname="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" time="0.004"/>
+  <testcase name="toUserString()" classname="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" time="0.001"/>
+  <testcase name="getName()" classname="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" time="0.0"/>
+  <testcase name="getAllergens()" classname="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" time="0.0"/>
+  <testcase name="getId()" classname="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" time="0.0"/>
+  <testcase name="testHashCode()" classname="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" time="0.001"/>
+  <testcase name="testEquals()" classname="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" time="0.0"/>
+  <testcase name="getPrice()" classname="nl.tudelft.sem.template.product.simpleClasses.ToppingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
